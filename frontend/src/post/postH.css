@@ -1,0 +1,47 @@
+.post{
+    width: 386px;
+    margin: 0px,25px,40px,25px;
+}
+.postImage{
+    width: 90%;
+    height: 270px;
+    object-fit: cover;
+    border-radius: 7px;
+}
+.postInfo{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.postCats{
+    font-size: 30px;
+    margin-right: 10px;
+    margin-top: 15px;
+}
+.postTitle{
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 15px;
+    cursor: pointer;
+}
+.postPrice{
+    font-size: 15px;
+    font-style: italic;
+    color: #012;
+
+}
+
+
+ .postDesc{
+    font-size: 16px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    
+    line-height: 14px;
+    color: rgb(1, 1, 15);
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+    margin-top: 15px;
+    
+}
